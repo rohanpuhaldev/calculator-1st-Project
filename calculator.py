@@ -20,8 +20,9 @@ while True:
      print("Division(4)")
      print("Power[b](5)")
      print("Average(6)")
+     print("Percentage(7)")
   
-     choice = input("Select[1/2/3/4/5/6] : ")
+     choice = input("Select[1/2/3/4/5/6/7] : ")
   
      if choice == "1":
         result = a+b
@@ -43,6 +44,9 @@ while True:
 
      elif choice == "6":
         result = (a+b)/2
+
+     elif choice == "7":
+        result = (a/100)*b
       
      else:
        print("Error! Invalid operation")
@@ -50,6 +54,7 @@ while True:
      
    
      print("Result:",result)
+     
 
      yes = input("Do you want to continue?[y/n] : ").upper()
   
@@ -57,9 +62,9 @@ while True:
         import time
         print("───────────────────────────────────────────────────────────────────")
         print("Requesting.........................................................")
-        time.sleep(.5)
+        time.sleep(.2)
         print("Request is accepted")
-        time.sleep(.1)
+        time.sleep(.06)
         print("───────────────────────────────────────────────────────────────────")
 
 

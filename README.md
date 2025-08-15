@@ -1,4 +1,4 @@
-# calculator-1st-Project
+# 1st Project 
 # Python Calculator
 
 A simple **console-based calculator** written in Python.  
@@ -11,7 +11,7 @@ It can perform addition, subtraction, multiplication, division, power, and avera
 - Addition, Subtraction, Multiplication
 - Division (with divide-by-zero check)
 - Power calculation
-- Average of two numbers
+- Average and Percentage of two numbers
 - Handles invalid input and non-numeric entries
 - User-friendly loop to perform multiple calculations
 
@@ -24,7 +24,7 @@ It can perform addition, subtraction, multiplication, division, power, and avera
 3. Follow the on screen instructions to perform calculations.
 
 ## Updates
-# I will give time to time major and minor updates whenever possible.
+- I will give time to time major and minor updates whenever possible.
 
 ## Author
 Rohan Puhal
