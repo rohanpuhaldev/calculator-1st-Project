@@ -1,7 +1,14 @@
 while True:
      try:
-       a = float(input("Enter number 1 : "))
-       b = float(input("Enter number 2 : "))
+       a = input("Enter number 1 or [exit] : ")
+       if a.upper() == "EXIT":
+          break 
+       a = float(a)
+
+       b = input("Enter number 2 or [exit]: ")
+       if b.upper() == "EXIT":
+          break
+       b = float(b)
      except ValueError:
       print("Please enter only DIGITS!")
       continue
@@ -48,21 +55,24 @@ while True:
   
      if yes == "Y":
         import time
-        print("Requesting..........................")
-        time.sleep(.2)
-        print("=====================================================================================")
+        print("───────────────────────────────────────────────────────────────────")
+        print("Requesting.........................................................")
+        time.sleep(.5)
+        print("Request is accepted")
+        time.sleep(.1)
+        print("───────────────────────────────────────────────────────────────────")
 
 
      else:
         import time
 
         print("Requesting..........................")
-        time.sleep(.3)
+        time.sleep(.1)
         print("Request is accepted.")
-        time.sleep(.4)
+        time.sleep(.17)
         print("Task is completed!")
-        time.sleep(.46)
+        time.sleep(.18)
         print("Thanks! For utilizing me,")
-        time.sleep(.49)
+        time.sleep(.18)
         print("Have a good day!")
         break
